@@ -1,4 +1,4 @@
-element {
+﻿element {
 }
 
 table.hsg {
@@ -11,7 +11,7 @@ table.hsg {
 }
 
 .hsg {
-	border: 1px solid #ccc;
+	border: 1px solid rgb(124, 103, 177);
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -20,22 +20,23 @@ table.hsg {
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: rgb(204, 204, 204);
-    border-right-color: rgb(204, 204, 204);
-    border-bottom-color: rgb(204, 204, 204);
-    border-left-color: rgb(204, 204, 204);
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image-source: none;
+    border-top-color: rgb(124, 103, 177);
+    border-right-color: rgb(124, 103, 177);
+    border-bottom-color: rgb(124, 103, 177);
+    border-left-color: rgb(124, 103, 177);
+    -moz-border-top-colors: rgb(124, 103, 177);
+    -moz-border-right-colors: rgb(124, 103, 177);
+    -moz-border-bottom-colors: rgb(124, 103, 177);
+    -moz-border-left-colors: rgb(124, 103, 177);
+    border-image-source: rgb(124, 103, 177);
     border-image-slice: 100%;
     border-image-width: 1;
     border-image-outset: 0;
     border-image-repeat: stretch stretch;
-	color: white;
-	background-color: purple;
+	color: #7C67B1;
+	background-color: #2F2F2F;
 	text-align: left;
+	font-family: 'Lato';
 }
 
 .hsg {
@@ -49,8 +50,8 @@ table.hsg {
 .et_pb_button {
     display: inline-block;
     margin: 1px;
-    background: white;
-    color: purple;
+    background: #7C67B1;
+    color: white;
     font-size: 1.5em;
     font-family: ‘Georgia’, serif;
     font-style: ;
@@ -62,5 +63,10 @@ table.hsg {
 }
 .et_pb_button:hover {
     background: #666;
-    color: #c1e1e0;
+    color: #7C67B1;
+}
+
+.color {
+    background: #7C67B1;
+    color: #fff;
 }
