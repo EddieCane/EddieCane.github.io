@@ -1,0 +1,66 @@
+element {
+}
+
+table.hsg {
+
+	margin: 20px 0;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.hsg {
+	border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+	color: white;
+	background-color: purple;
+	text-align: left;
+}
+
+.hsg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+
+}
+
+.et_pb_button {
+    display: inline-block;
+    margin: 1px;
+    background: white;
+    color: purple;
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: ;
+    border-radius: 50px;
+    padding: 8px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.et_pb_button:hover {
+    background: #666;
+    color: #c1e1e0;
+}
