@@ -1,0 +1,28 @@
+.color {
+    background: #7C67B1;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 16px;
+
+
+}
+
+.button {
+    display: inline-block;
+    margin: 0px;
+    background: #7C67B1;
+    color: white;
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: ;
+    border-radius: 50px;
+    padding: 8px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+
+}
+.button:hover {
+    background: #666;
+    color: #7C67B1;
+}
