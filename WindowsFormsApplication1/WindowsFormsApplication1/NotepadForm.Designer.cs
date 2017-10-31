@@ -54,7 +54,7 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "*Notes Save Upon Exit*";
             // 
-            // Form5
+            // NotepadForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -64,7 +64,9 @@
             this.Controls.Add(this.richTextBox1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(103)))), ((int)(((byte)(177)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form5";
+            this.MaximizeBox = false;
+            this.Name = "NotepadForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Note Pad";
             this.ResumeLayout(false);
             this.PerformLayout();
