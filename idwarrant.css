@@ -1,4 +1,4 @@
-.color {
+﻿.color {
     background: #7C67B1;
     color: white;
     border-radius: 50px;
@@ -24,3 +24,28 @@
     color: #7C67B1;
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(124,103,177,1);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgba(47,47,47,1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(47,47,47,1);
+	color: rgba(124,103,177,1);
+}
