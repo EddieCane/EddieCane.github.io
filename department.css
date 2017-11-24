@@ -31,13 +31,18 @@ li a:hover {
 }
 
 h1 {
-  position: absolute;
-  font-size: 50px;
+  font-size: 60px;
   color: #7C67B1;
-  letter-spacing: 1.6rem;
-  top: calc(80% - 200px);
   text-align: center;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
-  opacity: .68;
-  z-index: 2001;
+  opacity: 1;
+
+}
+
+h3 {
+  color: #7C67B1;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+  opacity: 1;
+
 }
