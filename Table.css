@@ -96,3 +96,9 @@ li a:hover {
     background-color: rgba(47,47,47,1);
 	color: rgba(124,103,177,1);
 }
+
+table {
+		color: rgba(124,103,177,1);
+    	table-layout: fixed;
+		word-wrap:break-word
+}
