@@ -29,3 +29,15 @@ li a:hover {
     background-color: rgba(47,47,47,1);
 	color: rgba(124,103,177,1);
 }
+
+h1 {
+  position: absolute;
+  font-size: 50px;
+  color: #7C67B1;
+  letter-spacing: 1.6rem;
+  top: calc(80% - 200px);
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+  opacity: .68;
+  z-index: 2001;
+}
