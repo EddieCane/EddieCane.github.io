@@ -73,3 +73,8 @@ li a:hover {
     /* IE 10+ */
     color: white;
 }
+
+html {
+  font-family: sans-serif;
+
+}
